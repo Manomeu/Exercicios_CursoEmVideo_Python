@@ -1,0 +1,8 @@
+a1 = input('\033[40;34mDigite algo: \033[m')
+print('\033[41;30m=============================================\033[m')
+print(f'\033[36mO tipo primitivo é\033[m', type(a1))
+print(f'\033[35mSó tem espaços? {a1.isspace()}\033[m')
+print(f'\033[34mÉ Numérico? {a1.isnumeric()}\033[m')
+print(f'\033[33mÉ Letra? {a1.isalpha()}\033[m')
+print(f'\033[32mÉ AlphaNumérico? {a1.isalnum()}\033[m')
+print(f'\033[31mÉ Capitalizada? {a1.istitle()}\033[m')
